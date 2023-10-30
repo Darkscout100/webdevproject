@@ -18,7 +18,7 @@
                 <td>Action</td>
             </tr>
             <?php
-            while($res = mysql_fetch_array($$result)) {
+            while($res = mysql_fetch_array($result)) {
                 echo "<tr>";
                 echo "<td>".$res['subject_id']."</td>";
                 echo "<td>".$res['subject_code']."</td>";
