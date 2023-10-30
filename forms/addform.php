@@ -5,7 +5,7 @@
 </head>
 
 <body>
-    <h1>Add Sujbject</h1>
+    <h1>Add Subject</h1>
     <a href="../index.php">Home</a>
     <br/><br/>
     <form action="../functions/add.php" method="post" name="form1">

@@ -15,7 +15,7 @@
                 echo "<br/><a href = 'javascript:self.history.back();'>Go Back</a>";
             }
             else {
-                mysqli_query($dbc, "UPDATE tblsubject SET subject_code='$code', subject_name='$name') WHERE subject_id='$id'");
+                mysqli_query($dbc, "UPDATE tblsubjects SET Subject_code='$code', Subject_name='$name') WHERE Subject_id='$id'");
 
                 header("Location: ../index.php");
         }
