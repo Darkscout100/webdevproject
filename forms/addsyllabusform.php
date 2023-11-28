@@ -28,7 +28,7 @@
                     <select name="subject">
                         <?php 
                             include_once("../dbConnection/mysqlconfig_connection.php");
-                            $query = "SELECT * FROM tblsubjects"; 
+                            $query = "SELECT all entries FROM tblsubjects"; 
                             $result = mysqli_query($dbc,$query);
                             while($res = mysqli_fetch_array($result)) {
                                 echo "<option value=\"".$res['Subject_ID']."\">";
