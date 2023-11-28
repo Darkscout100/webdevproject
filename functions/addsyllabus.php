@@ -22,10 +22,7 @@
                     echo "<br/><a href = 'javascript:self.history.back();'>Go Back</a>";
                 }
                 else {
-                    $result = mysqli_query($dbc, "SELECT all entries from tblsubjects
-                    LEFT JOIN tblsyllabus
-                    ON tblsyllabus.subject_id = tblsubjects.subjectid");
-
+                    $result = mysqli_query($dbc, "INSERT INTO tblsyllabus(subject_id,subject_id,syllabus_author) VALUES('$code', '$author','$subject')");
                     echo "<font color = 'green'>Data added Successfully.";
                     echo "<br/><a href = '../index.php'>View Result</a>";
                 }

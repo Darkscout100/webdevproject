@@ -10,6 +10,7 @@
     <body>
         <h1>My subjects</h1>
         <a href="forms/addform.php">Add Subjects</a><br/><br/>
+        <a href="forms/addsyllabusform.php">Add Syllabus</a><br/><br/>
         <table width='100%'>
             <tr>
                 <td>ID</td>
