@@ -5,11 +5,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Add Syllabus</title>
+        <title>Add Data</title>
         
     </head>
     <body>
-        <h1>My subjects</h1>
+        <h1>Add Syllabus</h1>
         <a href="../index.php"></a>
         <br/><br/>
         <form action="../funtions/addsyllabus.php" method="post" name="form1">
