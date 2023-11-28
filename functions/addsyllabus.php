@@ -22,7 +22,9 @@
                     echo "<br/><a href = 'javascript:self.history.back();'>Go Back</a>";
                 }
                 else {
-                    $result = mysqli_query($dbc, "<<UPDATE SELECT QUERY>>");
+                    $result = mysqli_query($dbc, "SELECT all entries from tblsubjects
+                    LEFT JOIN tblsyllabus
+                    ON tblsyllabus.subject_id = tblsubjects.subjectid");
 
                     echo "<font color = 'green'>Data added Successfully.";
                     echo "<br/><a href = '../index.php'>View Result</a>";
